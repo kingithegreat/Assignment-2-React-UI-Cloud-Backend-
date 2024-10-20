@@ -1,0 +1,63 @@
+body {
+    background-color: #d1c3c3;
+    color: #e0e0e0;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6347; /* Blood red */
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #ff6347; /* Blood red */
+    text-shadow: 2px 2px 4px #000000;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6347; /* Blood red */
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+button:hover {
+    background-color: #cc0000; /* Darker blood red */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    background-color: #333;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px #ff6347; /* Blood red glow */
+}
+
+li p {
+    margin: 5rem;
+    flex-grow: 1;
+    color: #f5f3f3;
+}

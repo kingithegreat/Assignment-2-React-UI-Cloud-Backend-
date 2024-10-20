@@ -1,0 +1,13 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    margin-bottom: 1rem;
+}
+
+.image-container img {
+    width: 60%; 
+    height: 100%; 
+    max-width: 100%; /* prevent it doesn't overflow the container */
+}
